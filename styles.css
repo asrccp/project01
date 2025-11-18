@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+
+/*Text for Basic font color*/
+p {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  color: #000000 ;
+}
+
+/*Text for Democrat font color*/
+dem {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  color: #0066ff ;
+}
+/*Link Text for Democrat font color*/
+a.dem {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  color: #0066ff ;
+}
+/*Hover text*/
+a.dem:hover {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  color: #a8cbff ;
+}
+
+/*Text for Republican font color*/
+repub {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  color: #ff0000 ;
+}
+/*link Text for Republican font color*/
+a.repub {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  color: #ff0000 ;
+}
+/*Hover text*/
+a.repub:Hover {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  color: #ff9393 ;
+}
+
+/*Text for Third Party font color*/
+a.tparty {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  color: #ffcc00;
+}
+/*Hover Text*/
+a.tparty:Hover {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  color: #ffdf60;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
